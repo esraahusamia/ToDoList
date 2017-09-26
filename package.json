@@ -1,0 +1,24 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "1- organize your work \r 2- improve your memory \r 3- increase your productivity \r 4- motivation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esraahusamia/ToDoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esraahusamia/ToDoList/issues"
+  },
+  "homepage": "https://github.com/esraahusamia/ToDoList#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "express": "^4.15.5",
+    "mongodb": "^2.2.31"
+  }
+}
