@@ -18,7 +18,14 @@
   "homepage": "https://github.com/esraahusamia/ToDoList#readme",
   "dependencies": {
     "angular": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
     "express": "^4.15.5",
-    "mongodb": "^2.2.31"
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.13",
+    "nodemon": "^1.12.1",
+    "request": "^2.82.0"
   }
 }

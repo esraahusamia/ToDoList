@@ -1,23 +1,14 @@
-angular.
-module('ToDo').
+angular.module('app',[]).
 component('list', {
 
-	controller:{
-		this.list=[{
-			name: "running",
-			date: "18/10/2017",
-			time:  "08:00 am"
-		},
-		{
-			name: "running",
-			date: "18/10/2017",
-			time:  "08:00 am"
-		}
-		]
+	controller:function (){
+		this.list=window.tasksList 
 
+		
 	},
 
-	templateUrl:'template/list.html'
+
+	templateUrl:'../template/list.html'
 	
 
-}
+});

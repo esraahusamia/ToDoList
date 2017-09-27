@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<h1> hi</h1>
-<ul>
-	<li
-	task=task
-	ng-repeat= task in $ctrl.list >
-		<span>{{task.name}} </span>
-		<span>{{task.date}} </span>
-		<span>{{task.time}} </span>
-	</li>
-</ul>
-</body>
 
-</html>
+<ul>
+	<task
+	task=task
+	ng-repeat= "task in $ctrl.list" 
+	/>
+</ul>
+
+
+
+<!-- <span>{{task.name}} </span>
+		<span>{{task.date}} </span>
+		<span>{{task.time}} </span> -->

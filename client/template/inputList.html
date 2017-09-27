@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 
-<p>Name : <input type="text"  placeholder="Enter your task here "></p>
-<p>Date : <input type="date" ></p>
-<p>Time : <input type="time" ></p>
-<button> submit </button>
-
-<script type="text/javascript" src = "controller/input.js"></script>
-
-</body>
-</html>
+<div>  
+<p>Name : <input  id="task" type="text"  placeholder="Enter your task here "></p>
+<p>Date : <input id="date" type="date" ></p>
+<p>Time : <input id="time" type="time" ></p>
+<button ng-click="$ctrl.save()" > submit </button>
+</div>

@@ -1,11 +1,11 @@
-angular.module('ToDo', [])
-component('app', {
+angular.module('app',[])
+.component('todo', {
 
-   controller:{
-
+   // controller:function (){
+   //     this.list=window.tasksList
      
-   },
+   // },
 
-   templateUrl:`template/app.html`
+   templateUrl:'../template/app.html'
 
-  }
+  });

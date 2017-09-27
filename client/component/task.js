@@ -1,12 +1,14 @@
-angular.
-  module('ToDo').
+angular.module('toDoList',[]).
   component('task', {
-
-  controller:{
-
+   bindings:{
+	  	task:'<' 
+	  },
+   //  controller:function (){
      
-   },
+     
+   // },
 
-  	 templateUrl:`template/task.html`
 
-  }
+  	 templateUrl:'../template/task.html'
+
+  });
