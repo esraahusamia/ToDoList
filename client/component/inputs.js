@@ -7,14 +7,14 @@ component('inputlist', {
 
 	controller:function (){
 
-		this.list = [];
-		this.save:function (){
-        this.newTask;
+		this.list = [],
+		this.save =function (){
+        this.newTask 
         this.list.push(this.newTask);
         $.ajax({
         	method:"POST",
-        	url :"https://localhost:3000",
-        	data:{task: $(#task).val(),date: $(#date).val,time : $(#time).val()}
+        	url :"https://localhost:3000"
+        	// data:{task: $(#task).val(),date: $(#date).val,time : $(#time).val()}
         }).
         done(function(todo){
         	alert("data saved :" + todo);
